@@ -1,0 +1,78 @@
+{
+    "additionalFeatures": "There are several types of equipment with accessories",     
+    "description": "The original and a nice minivan was important updates. It is still universal, practical, enjoyable to use. Plus now the New Berlingo Multispace is equipped with a weight system that will make every journey memorable.",     
+    "engine": {
+        "type": "multipoint electronic injection", 
+        "number_of_cylinders_valves": "4/16", 
+        "displacement_cm3": "1587", 
+        "maximum_power_kW_hp": "85(115)", 
+        "rotations_minute": "6050", 
+        "maximum_torque_EEC_Nm": "150",
+        "s_and_s": false,
+        "environmental_class": "EURO V"
+    }, 
+    "transmission" : {
+        "gearbox": "mechanic", 
+        "gear": "5",
+        "system_Stability_Programme_ESP": false
+    },
+    "steering_control" :{
+        "number_of_steering_wheel_turns": "3.15",
+        "power_steering_with_variable_rigidity": true,
+        "turning_circle_on_the_curb_m": "10.7"
+    },
+    "suspension":{
+        "front_suspension": "type pseudo MacPherson",
+        "rear_suspension": "semi-U-like torsion bar"
+    },
+    "brake_system": {
+        "front": "ventilated discs",
+        "rear": "drum",
+        "abs": true
+    },
+    "tires": {
+        "tires_on_car": "Goodyear 185/65 R15"
+    },
+    "capacity": {
+        "number_of_seats": "5",
+        "length": "4427",
+        "width_without_mirrors": "1748",
+        "height": "1466",
+        "wheelbase": "2652",
+        "length_of_luggage": "1091",
+        "boot_volume_dm3": "506"
+    },
+    "mass": {
+        "capacity_including_driver": "394",
+        "gross_weight_UES_MTAS": "1559",
+        "maximum_trailer_weight": "750",
+        "the_maximum_permissible_GTW": "2309"
+    },
+    "speed_Characteristics": {
+        "maximum_speed": "188",
+        "from_0_to_1000_m": "32.3",
+        "from_0_to_100_km_h": "10.8"
+    },
+    "fuel_consumption": {
+        "urban": "8.8",
+        "country": "5.3",
+        "mixed": "6.5",
+        "co2": "151",
+        "octane": true,
+        "diesel": false,
+        "tank_capacity": "50"
+    },
+    "id": "CITROEN_BERLINGO_MULTISPACE", 
+    "images": [
+        "img/cars/CITROEN BERLINGO MULTISPACE.1.jpg",         
+        "img/cars/CITROEN BERLINGO MULTISPACE.2.jpg", 
+        "img/cars/CITROEN BERLINGO MULTISPACE.3.jpg",
+        "img/cars/CITROEN BERLINGO MULTISPACE.4.jpg",
+        "img/cars/CITROEN BERLINGO MULTISPACE.5.jpg",
+        "img/cars/CITROEN BERLINGO MULTISPACE.7.jpg",
+        "img/cars/CITROEN BERLINGO MULTISPACE.8.jpg",
+        "img/cars/CITROEN BERLINGO MULTISPACE.9.jpg"
+    ], 
+    "name": "CITROEN BERLINGO MULTISPACE",
+    "price": 18410   
+}

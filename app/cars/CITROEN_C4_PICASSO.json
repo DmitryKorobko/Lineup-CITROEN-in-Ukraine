@@ -1,0 +1,78 @@
+{
+    "additionalFeatures": "There are several types of equipment with accessories",     
+    "description": "Citroen C4 Picasso - a compact but spacious minivan. Bodywork, dynamic appearance, luxurious interior, modern equipment, sensor technology, innovative solutions - it's all about the new Citroen C4 Picasso, which perfectly embodies the brand «Creative Technology» approach.",     
+    "engine": {
+        "type": "direct injection system pressure", 
+        "number_of_cylinders_valves": "4/16", 
+        "displacement_cm3": "1560", 
+        "maximum_power_kW_hp": "85(115)", 
+        "rotations_minute": "3600", 
+        "maximum_torque_EEC_Nm": "270",
+        "s_and_s": false,
+        "environmental_class": "EURO V"
+    }, 
+    "transmission" : {
+        "gearbox": "auto", 
+        "gear": "6",
+        "system_Stability_Programme_ESP": true
+    },
+    "steering_control" :{
+        "number_of_steering_wheel_turns": "2.9",
+        "power_steering_with_variable_rigidity": true,
+        "turning_circle_on_the_curb_m": "11.2"
+    },
+    "suspension":{
+        "front_suspension": "type MacPherson on triangular lower wishbone, spring with hydraulic telescopic shock absorbers",
+        "rear_suspension": "with deformable transverse beam - anti-roll bar, spring, with hydraulic telescopic shock absorbers"
+    },
+    "brake_system": {
+        "front": "ventilated discs",
+        "rear": "discs",
+        "abs": true
+    },
+    "tires": {
+        "tires_on_car": "MICHELIN 205/60 R16, 205/55 P17"
+    },
+    "capacity": {
+        "number_of_seats": "5",
+        "length": "4428",
+        "width_without_mirrors": "1971",
+        "height": "1610",
+        "wheelbase": "2785",
+        "length_of_luggage": "1040",
+        "boot_volume_dm3": "537"
+    },
+    "mass": {
+        "capacity_including driver": "642",
+        "gross_weight_UES_MTAS": "1940",
+        "maximum_trailer_weight": "800",
+        "the_maximum_permissible_GTW": "2740"
+    },
+    "speed_Characteristics": {
+        "maximum_speed": "189",
+        "from_0_to_1000_m": "33.4",
+        "from_0_to_100_km_h": "11.8"
+    },
+    "fuel_consumption": {
+        "urban": "5.1",
+        "country": "3.7",
+        "mixed": "4.2",
+        "co2": "110",
+        "octane": false,
+        "diesel": true,
+        "tank_capacity": "55"
+    },
+    "id": "CITROEN_C4_PICASSO", 
+    "images": [
+        "img/cars/CITROEN C4 PICASSO.1.jpg",         
+        "img/cars/CITROEN C4 PICASSO.2.jpg", 
+        "img/cars/CITROEN C4 PICASSO.3.jpg",
+        "img/cars/CITROEN C4 PICASSO.4.jpg",
+        "img/cars/CITROEN C4 PICASSO.5.jpg",
+        "img/cars/CITROEN C4 PICASSO.6.jpg",
+        "img/cars/CITROEN C4 PICASSO.7.jpg",
+        "img/cars/CITROEN C4 PICASSO.8.jpg"
+    ], 
+    "name": "CITROEN C4 PICASSO",
+    "price": 23930    
+}

@@ -1,0 +1,78 @@
+{
+    "additionalFeatures": "There are several types of equipment with accessories",     
+    "description": "Citroen Grand C4 Picasso is striking a balance between soft, wavy lines and a spacious, convenient interior. Through the use of EMR2 platform, the car received a very unusual and attractive body proportions, but has good capacity. In addition, Citroen Grand C4 Picasso offers class-leading features, easy to use technology innovation to protect the environment.",     
+    "engine": {
+        "type": "direct Injection System under pressure", 
+        "number_of_cylinders_valves": "4/16", 
+        "displacement_cm3": "1560", 
+        "maximum_power_kW_hp": "85(115)", 
+        "rotations_minute": "3600", 
+        "maximum_torque_EEC_Nm": "270",
+        "s_and_s": false,
+        "environmental_class": "EURO V"
+    }, 
+    "transmission" : {
+        "gearbox": "auto", 
+        "gear": "6",
+        "system_Stability_Programme_ESP": true
+    },
+    "steering_control" :{
+        "number_of_steering_wheel_turns": "3.15",
+        "power_steering_with_variable_rigidity": true,
+        "turning_circle_on_the_curb_m": "10.7"
+    },
+    "suspension":{
+        "front_suspension": "type MacPherson on triangular lower wishbone, spring with hydraulic telescopic shock absorbers",
+        "rear_suspension": "with deformable transverse beam - anti-roll bar, spring, with hydraulic telescopic shock absorbers"
+    },
+    "brake_system": {
+        "front": "ventilated discs",
+        "rear": "discs",
+        "abs": true
+    },
+    "tires": {
+        "tires_on_car": "MICHELIN 205/60 R16, 205/55 P17"
+    },
+    "capacity": {
+        "number_of_seats": "7",
+        "length": "4597",
+        "width_without_mirrors": "1971",
+        "height": "1638",
+        "wheelbase": "2840",
+        "length_of_luggage": "1110",
+        "boot_volume_dm3": "575"
+    },
+    "mass": {
+        "capacity_including_driver": "830",
+        "gross_weight_UES_MTAS": "2150",
+        "maximum_trailer_weight": "695",
+        "the_maximum_permissible_GTW": "3350"
+    },
+    "speed_Characteristics": {
+        "maximum_speed": "189",
+        "from_0_to_1000_m": "34.2",
+        "from_0_to_100_km_h": "12.6"
+    },
+    "fuel_consumption": {
+        "urban": "4.4",
+        "country": "3.7",
+        "mixed": "4",
+        "co2": "104",
+        "octane": false,
+        "diesel": true,
+        "tank_capacity": "55"
+    },
+    "id": "CITROEN_GRAND_C4_PICASSO", 
+    "images": [
+        "img/cars/CITROEN GRAND C4 PICASSO.1.jpg",
+        "img/cars/CITROEN GRAND C4 PICASSO.3.jpg",
+        "img/cars/CITROEN GRAND C4 PICASSO.4.jpg",
+        "img/cars/CITROEN GRAND C4 PICASSO.5.jpg",
+        "img/cars/CITROEN GRAND C4 PICASSO.6.jpg",
+        "img/cars/CITROEN GRAND C4 PICASSO.7.jpg",
+        "img/cars/CITROEN GRAND C4 PICASSO.8.jpg",
+        "img/cars/CITROEN GRAND C4 PICASSO.9.jpg"
+    ], 
+    "name": "CITROEN GRAND C4 PICASSO",
+    "price": 26540    
+}

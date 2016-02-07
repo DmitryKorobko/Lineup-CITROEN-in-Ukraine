@@ -1,0 +1,82 @@
+{
+    "additionalFeatures": "There are several types of equipment with accessories",     
+    "description": "Citroen C4 Cactus filled with modern technologies, which stand guard over the safety and comfort, will be useful in the daily commute and help in difficult situations. It is reasonable technology - they work only when needed, without distracting the driver.",     
+    "engine": {
+        "type": "direct injection system pressure", 
+        "number_of_cylinders_valves": "4/16", 
+        "displacement_cm3": "1560", 
+        "maximum_power_kW_hp": "68(92)", 
+        "rotations_minute": "4000", 
+        "maximum_torque_EEC_Nm": "230",
+        "s_and_s": true,
+        "environmental_class": "EURO V"
+    }, 
+    "transmission" : {
+        "gearbox": "auto", 
+        "gear": "6",
+        "system_Stability_Programme_ESP": true
+    },
+    "steering control" :{
+        "number_of_steering_wheel_turns": "2.9",
+        "power_steering_with_variable_rigidity": true,
+        "turning_circle_on_the_curb_m": "11.2"
+    },
+    "suspension":{
+        "front_suspension": "type MacPherson on triangular lower wishbone, spring with hydraulic telescopic shock absorbers",
+        "rear_suspension": "with deformable transverse beam - anti-roll bar, spring, with hydraulic telescopic shock absorbers"
+    },
+    "brake_system": {
+        "front": "ventilated discs",
+        "rear": "drum",
+        "abs": true
+    },
+    "tires": {
+        "tires_on_car": "MICHELIN 205/55 R16, 205/50 P17"
+    },
+    "capacity": {
+        "number_of_seats": "5",
+        "length": "4157",
+        "width_without_mirrors": "1729",
+        "height": "1480",
+        "wheelbase": "2595",
+        "length_of_luggage": "1020",
+        "boot_volume dm3": "348"
+    },
+    "mass": {
+        "capacity_including driver": "475",
+        "gross_weight_UES_MTAS": "1605",
+        "maximum_trailer_weight": "825",
+        "the_maximum_permissible_GTW": "2205"
+    },
+    "speed_Characteristics": {
+        "maximum_speed": "182",
+        "from_0_to_1000_m": "33.3",
+        "from_0_to_100_km_h": "11.4"
+    },
+    "fuel_consumption": {
+        "urban": "3.8",
+        "country": "3.4",
+        "mixed": "3.5",
+        "co2": "92",
+        "octane": false,
+        "diesel": true,
+        "tank_capacity": "50"
+    },
+    "id": "CITROEN_C4_CACTUS", 
+    "images": [
+        "img/cars/CITROEN C4 CACTUS.1.jpg", 
+        "img/cars/CITROEN C4 CACTUS.3.jpg",
+        "img/cars/CITROEN C4 CACTUS.4.jpg",
+        "img/cars/CITROEN C4 CACTUS.5.jpg",
+        "img/cars/CITROEN C4 CACTUS.6.jpg",
+        "img/cars/CITROEN C4 CACTUS.7.jpg",
+        "img/cars/CITROEN C4 CACTUS.8.jpg",
+        "img/cars/CITROEN C4 CACTUS.9.jpg",
+        "img/cars/CITROEN C4 CACTUS.10.jpg",
+        "img/cars/CITROEN C4 CACTUS.11.jpg",
+        "img/cars/CITROEN C4 CACTUS.13.jpg",
+        "img/cars/CITROEN C4 CACTUS.14.jpg"
+    ], 
+    "name": "CITROEN C4 CACTUS",
+    "price": 17325    
+}

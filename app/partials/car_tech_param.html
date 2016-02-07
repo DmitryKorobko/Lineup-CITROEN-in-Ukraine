@@ -1,0 +1,165 @@
+<img ng-src="{{mainImageUrl}}" class="car">
+
+<h1>{{car.name}}</h1>
+<h3>{{car.price | currency}}</h3>
+<p>{{car.description}}</p>
+
+<ul class="car-thumbs">
+  <li ng-repeat="img in car.images">
+    <img ng-src="{{img}}" ng-click="setImage(img)">
+  </li>
+</ul>
+
+<ul class="specifications">
+ 
+  <li>
+    <span>Engine</span>
+    <dl>
+      <dt>Type</dt>
+      <dd>{{car.engine.type}}</dd>
+      <dt>Number of cylinders / valves</dt>
+      <dd>{{car.engine.number_of_cylinders_valves}}</dd>
+      <dt>Displacement_cm3</dt>
+      <dd>{{car.engine.displacement_cm3}}</dd>
+      <dt>Maximum power, kW (hp)</dt>
+      <dd>{{car.engine.maximum_power_kW_hp}}</dd>
+      <dt>Rotations / minute</dt>
+      <dd>{{car.engine.rotations_minute}}</dd>      
+      <dt>Maximum torque EEC (Nm)</dt>
+      <dd>{{car.engine.maximum_torque_EEC_Nm}}</dd>
+      <dt>Stop and Start system</dt>
+      <dd>{{car.engine.s_and_s | checkmark}}</dd>
+      <dt>Environmental class</dt>
+      <dd>{{car.engine.environmental_class}}</dd>
+    </dl>
+  </li>
+
+  <li>
+    <span>Transmission</span>
+    <dl>
+      <dt>Gearbox</dt>
+      <dd>{{car.transmission.gearbox}}</dd>
+      <dt>Gear</dt>
+      <dd>{{car.transmission.gear}}</dd>
+      <dt>System Stability Programme (ESP)</dt>
+      <dd>{{car.transmission.system_Stability_Programme_ESP | checkmark}}</dd>     
+    </dl>
+  </li>
+
+  <li>
+    <span>Steering control</span>
+    <dl>
+      <dt>Number of steering wheel turns</dt>
+      <dd>{{car.steering_control.number_of_steering_wheel_turns}}</dd>
+      <dt>Power steering with variable rigidity</dt>
+      <dd>{{car.steering_control.power_steering_with_variable_rigidity | checkmark}}</dd>
+      <dt>Turning circle on the curb, m</dt>
+      <dd>{{car.steering_control.turning_circle_on_the_curb_m}}</dd>     
+    </dl>
+  </li>
+
+  <li>
+    <span>Suspension</span>
+    <dl>
+      <dt>Front suspension</dt>
+      <dd>{{car.suspension.front_suspension}}</dd>
+      <dt>Rear suspension</dt>
+      <dd>{{car.suspension.rear_suspension}}</dd>   
+    </dl>
+  </li>
+
+  <li>
+    <span>Brake system</span>
+    <dl>
+      <dt>Front</dt>
+      <dd>{{car.brake_system.front}}</dd>
+      <dt>Rear</dt>
+      <dd>{{car.brake_system.rear}}</dd>
+      <dt>ABS</dt>
+      <dd>{{car.brake_system.abs | checkmark}}</dd>     
+    </dl>
+  </li>
+
+  <li>
+    <span>Tires</span>
+    <dl>
+      <dt>Tires on car</dt>
+      <dd>{{car.tires.tires_on_car}}</dd>     
+    </dl>
+  </li>
+
+  <li>
+    <span>Capacity</span>
+    <dl>
+      <dt>Number of seats</dt>
+      <dd>{{car.capacity.number_of_seats}}</dd>
+      <dt>Length</dt>
+      <dd>{{car.capacity.length}}</dd>
+      <dt>Width (without mirrors)</dt>
+      <dd>{{car.capacity.width_without_mirrors}}</dd>
+      <dt>Height</dt>
+      <dd>{{car.capacity.height}}</dd>
+      <dt>Wheelbase</dt>
+      <dd>{{car.capacity.wheelbase}}</dd>      
+      <dt>Length of luggage</dt>
+      <dd>{{car.capacity.length_of_luggage}}</dd>
+      <dt>Boot volume dm3</dt>
+      <dd>{{car.capacity.boot_volume_dm3}}</dd>
+    </dl>
+  </li>
+
+  <li>
+    <span>Mass</span>
+    <dl>
+      <dt>Capacity (including driver)</dt>
+      <dd>{{car.mass.capacity_including_driver}}</dd>
+      <dt>Gross weight (UES) (MTAS)</dt>
+      <dd>{{car.mass.gross_weight_UES_MTAS}}</dd>
+      <dt>Maximum trailer weight</dt>
+      <dd>{{car.mass.maximum_trailer_weight}}</dd>
+      <dt>The maximum permissible weight of the vehicle with a trailer GTW</dt>
+      <dd>{{car.mass.the_maximum_permissible_GTW}}</dd>      
+    </dl>
+  </li>
+
+  <li>
+    <span>Speed Characteristics (driver only)</span>
+    <dl>
+      <dt>Maximum speed (km/h)</dt>
+      <dd>{{car.speed_Characteristics.maximum_speed}}</dd>
+      <dt>0-1000 m / one driver</dt>
+      <dd>{{car.speed_Characteristics.from_0_to_1000_m}}</dd>
+      <dt>0-100 km/h / one driver</dt>
+      <dd>{{car.speed_Characteristics.from_0_to_100_km_h}}</dd>     
+    </dl>
+  </li>
+
+   <li>
+    <span>Fuel consumption (in liters. At 100 km)</span>
+    <dl>
+      <dt>Urban</dt>
+      <dd>{{car.fuel_consumption.urban}}</dd>
+      <dt>Country</dt>
+      <dd>{{car.fuel_consumption.country}}</dd>
+      <dt>Mixed</dt>
+      <dd>{{car.fuel_consumption.mixed}}</dd>
+      <dt>CO2 (g/km)</dt>
+      <dd>{{car.fuel_consumption.co2}}</dd>
+      <dt>AI-95 octane unleaded and AI-98</dt>
+      <dd>{{car.fuel_consumption.octane | checkmark}}</dd>      
+      <dt>Diesel fuel</dt>
+      <dd>{{car.fuel_consumption.diesel | checkmark}}</dd>
+      <dt>Tank capacity</dt>
+      <dd>{{car.fuel_consumption.tank_capacity}}</dd>
+    </dl>
+  </li>
+
+  <li>
+    <span>Additional Features</span>
+    <dl>
+      <dt>Equipment</dt>
+      <dd>{{car.additionalFeatures}}</dd>     
+    </dl>
+  </li>
+
+</ul>

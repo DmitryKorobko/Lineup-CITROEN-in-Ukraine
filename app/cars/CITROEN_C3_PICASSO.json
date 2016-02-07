@@ -1,0 +1,82 @@
+{
+    "additionalFeatures": "There are several types of equipment with accessories",     
+    "description": "Spacious interior, a genius in detail, fun in nature: Citroen C3 Picasso - is more than just a minivan. This car «Spacebox» style.",     
+    "engine": {
+        "type": "multipoint electronic injection", 
+        "number_of_cylinders_valves": "4/16", 
+        "displacement_cm3": "1598", 
+        "maximum_power_kW_hp": "84(115)", 
+        "rotations_minute": "5200", 
+        "maximum_torque_EEC_Nm": "160",
+        "s_and_s": false,
+        "environmental_class": "EURO V"
+    }, 
+    "transmission" : {
+        "gearbox": "auto", 
+        "gear": "6",
+        "system_Stability_Programme_ESP": true
+    },
+    "steering_control" :{
+        "number_of_steering_wheel_turns": "2.9",
+        "power_steering_with_variable_rigidity": true,
+        "turning_circle_on_the_curb_m": "11.2"
+    },
+    "suspension":{
+        "front_suspension": "independent spring, like MacPherson, with antiroll",
+        "rear_suspension": "semi, spring"
+    },
+    "brake_system": {
+        "front": "ventilated discs",
+        "rear": "discs",
+        "abs": true
+    },
+    "tires": {
+        "tires_on_car": "MICHELIN 195/55 R16 N, 205/45 R17 V"
+    },
+    "capacity": {
+        "number_of_seats": "5",
+        "length": "4078",
+        "width_without_mirrors": "1730",
+        "height": "1624",
+        "wheelbase": "2540",
+        "length_of_luggage": "1019",
+        "boot_volume_dm3": "1506"
+    },
+    "mass": {
+        "capacity_including driver": "564",
+        "gross_weight_UES_MTAS": "1769",
+        "maximum_trailer_weight": "850",
+        "the_maximum_permissible_GTW": "2619"
+    },
+    "speed_Characteristics": {
+        "maximum_speed": "185",
+        "from_0_to_1000_m": "34.4",
+        "from_0_to_100_km_h": "12.9"
+    },
+    "fuel consumption (in liters. At 100 km)": {
+        "urban": "8.0",
+        "country": "4.8",
+        "mixed": "6.0",
+        "co2": "137",
+        "octane": true,
+        "diesel": false,
+        "tank_capacity": "50"
+    },
+    "id": "CITROEN_C3_PICASSO", 
+    "images": [
+        "img/cars/CITROEN C3 PICASSO.1.jpg",         
+        "img/cars/CITROEN C3 PICASSO.2.jpg", 
+        "img/cars/CITROEN C3 PICASSO.3.jpg",
+        "img/cars/CITROEN C3 PICASSO.4.jpg",
+        "img/cars/CITROEN C3 PICASSO.5.jpg",
+        "img/cars/CITROEN C3 PICASSO.6.jpg",
+        "img/cars/CITROEN C3 PICASSO.7.jpg",
+        "img/cars/CITROEN C3 PICASSO.8.jpg",
+        "img/cars/CITROEN C3 PICASSO.9.jpg",
+        "img/cars/CITROEN C3 PICASSO.10.jpg",
+        "img/cars/CITROEN C3 PICASSO.11.jpg",
+        "img/cars/CITROEN C3 PICASSO.12.jpg"
+    ], 
+    "name": "CITROEN C3 PICASSO",
+    "price": 16520    
+}

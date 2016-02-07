@@ -1,0 +1,65 @@
+[
+    {
+        "price": 18410, 
+        "id": "CITROEN_BERLINGO_MULTISPACE", 
+        "imageUrl": "img/cars/CITROEN BERLINGO MULTISPACE.1.jpg", 
+        "name": "CITROEN BERLINGO MULTISPACE", 
+        "snippet": "The original and a nice minivan was important updates."
+    },
+
+    {
+        "price": 16520, 
+        "id": "CITROEN_C3_PICASSO", 
+        "imageUrl": "img/cars/CITROEN C3 PICASSO.1.jpg", 
+        "name": "CITROEN C3 PICASSO", 
+        "snippet": "Spacious interior, a genius in detail, fun in nature: Citroen C3 Picasso - is more than just a minivan."
+    },
+
+    {
+        "price": 17325, 
+        "id": "CITROEN_C4_CACTUS", 
+        "imageUrl": "img/cars/CITROEN C4 CACTUS.1.jpg", 
+        "name": "CITROEN C4 CACTUS", 
+        "snippet": "Citroen C4 Cactus filled with modern technologies, which stand guard over the safety and comfort, will be useful in the daily commute and help in difficult situations."
+    },
+
+    {
+        "price": 18490, 
+        "id": "CITROEN_C4", 
+        "imageUrl": "img/cars/CITROEN C4.1.jpg", 
+        "name": "CITROEN C4", 
+        "snippet": "Even more unique, more technology, more enjoyable ride."
+    },
+
+    {
+        "price": 23930, 
+        "id": "CITROEN_C4_PICASSO", 
+        "imageUrl": "img/cars/CITROEN C4 PICASSO.1.jpg", 
+        "name": "CITROEN C4 PICASSO", 
+        "snippet": "Citroen C4 Picasso - a compact but spacious minivan."
+    },
+
+    {
+        "price": 12185, 
+        "id": "CITROEN_C-ELYSEE", 
+        "imageUrl": "img/cars/CITROEN C-ELYSEE.1.jpg", 
+        "name": "CITROEN C-ELYSEE", 
+        "snippet": "Citroen C-Elysee embodies all the technical and stylistic developments Stamps."
+    },
+
+    {
+        "price": 26540, 
+        "id": "CITROEN_GRAND_C4_PICASSO", 
+        "imageUrl": "img/cars/CITROEN GRAND C4 PICASSO.1.jpg", 
+        "name": "CITROEN GRAND C4 PICASSO", 
+        "snippet": "Citroen Grand C4 Picasso is striking a balance between soft, wavy lines and a spacious, convenient interior."
+    }, 
+    
+    {
+        "price": 27740, 
+        "id": "DS_4_CROSSBACK", 
+        "imageUrl": "img/cars/DS 4 CROSSBACK.1.jpg", 
+        "name": "DS 4 CROSSBACK", 
+        "snippet": "DS 4 Crossback, the true DNA of the brand carrier, different off-road look and promises an interesting and memorable trip."
+    }
+]
